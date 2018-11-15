@@ -596,7 +596,7 @@
 
         var _ = this,
             breakpoint, targetBreakpoint, respondToWidth, triggerBreakpoint = false;
-         if(vertical){
+         if(_.options.vertical === true){
          var sliderWidth = _.$slider.height();
         var windowWidth = window.innerHeight || $(window).height();}
          else{
